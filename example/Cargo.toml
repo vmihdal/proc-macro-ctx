@@ -1,0 +1,11 @@
+[package]
+name = "example"
+version = "0.1.0"
+authors = ["Volodymyr Mihdal <volodymyr.migdal@gmail.com>"]
+edition = "2024"
+
+[dependencies]
+macros = { path = "../macros" }
+
+[build-dependencies]
+ctx = { path = "../ctx" }
