@@ -1,5 +1,7 @@
 ## Rust proc macro with shared context
 
+![](./demo.gif)
+
 Example of how Rust proc macros could have a shared context, so every macro crate is using the same metadata no matter in which order macros are expanded.
 
 ### Structure
